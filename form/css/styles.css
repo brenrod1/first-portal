@@ -1,0 +1,152 @@
+/* styles for Form Exercise */
+
+
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+/* I am adding padding to my body for demonstration purposes only. REMOVE THE PADDING once you start working on your homework!!!!!!!! */
+body {
+    /* background: #eee; */
+    /* padding:100px; */
+    /* background-attachment: fixed; */
+    
+}
+.contact {
+    background-image: url(../images/grid-16.png);
+    
+}
+
+#wrapper {
+    width:940px;
+    margin:30px auto;
+    background: beige;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+main{
+    width:580px;
+    float:left;
+}
+
+aside{
+    width:340px;
+    float:right;
+    background: gray;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+figcaption{
+    font-size:1.2em ;
+    font-weight: bolder;
+    color:#800;
+    /* line-height:10px; */
+    text-align: center;
+    line-height: 50px;
+}
+h3{
+
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #800;
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+footer {
+    clear: both;
+    height:60px;
+    line-height: 50px;
+    display:flex;
+    justify-content: center;
+    border-top:1px dotted #800;
+}
+footer ul{
+    display: flex;
+
+}
+footer li{
+    margin:0 10px;
+    list-style-type: none;
+}
+/* MY FORM STYLES */
+
+form{
+    max-width: 580px;
+    margin-bottom: 20px;
+    /* background: tan; */
+}
+form ul{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+form li{
+    list-style-type: none;
+}
+
+fieldset{
+    padding:10px;
+    border-radius:5px;
+    border:3px double darkgray;
+    
+}
+
+legend{
+    font-size: 1.3em;
+    font-style:italic;
+    padding:0 5px;
+}
+label{
+    display:block;
+    margin-bottom:5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    
+    
+}
+input{
+    margin-bottom: 10px;
+    height:30px;
+    width:100%;
+}
+
+input[type=radio],
+input[type=checkbox]{
+width:auto;
+height:auto;
+margin-right: 3px;
+margin-bottom: 3px;
+}
+input[type=submit] {
+    width:auto;
+}
+
+
+ select{
+    margin-bottom: 10px;
+ }
+
+textarea{
+    height:110px;
+    width:100%;
+    margin-bottom: 10px;
+
+
+}
+h1 {
+    color:#800;
+    font-size: 3em;
+    margin-bottom: 12px;
+}
+/* hr {
+    margin-bottom: 20px;
+} */
+p{
+    margin-bottom: 20px;
+}

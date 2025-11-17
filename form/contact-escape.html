@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Homework</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body class="contact">
+<div id="wrapper">
+<header>
+<a href="">
+    <img src="images/logo.jpg" alt="logo">
+</a>
+</header>
+
+
+    <main>
+        <h1>Contact Us Today!</h1>
+<form action="formhandler.php" method="post">
+    <fieldset>
+        <legend>Contact Bren</legend>
+<label>Name</label>
+<input type="text" name="name">
+
+<label>Email</label>
+<input type="email" name="email">
+
+
+<ul>
+
+<li><input type="radio" name="gender" value="female">Female</li>
+<li><input type="radio" name="gender" value="male">Male</li>
+<li><input type="radio" name="gender" value="other">Other</li>
+</ul>
+
+
+<ul>
+
+    
+    <li><input type="checkbox" name="wines[]" value="cab">Cabernet</li>
+    <li><input type="checkbox" name="wines[]" value="merlot">Merlot</li>
+    <li><input type="checkbox" name="wines[]" value="malbec">Malbec</li>
+    <li><input type="checkbox" name="wines[]" value="syrah">Syrah</li>
+</ul>
+
+
+<label>Regions</label>
+<select name="regions">
+<option value="">Select one</option>
+<option value="nw">Northwest</option>
+<option value="sw">Southwest</option>
+<option value="mw">Midwest</option>
+<option value="so">South</option>
+<option value="ne">Northeast</option>
+</select>
+
+
+<label>Comments</label>
+<textarea name="comments"></textarea>
+<input type="submit" name="submit" value="Send it!">
+<p><a href="">Reset</a></p>
+
+
+    </fieldset>
+
+
+
+</form>
+</main> 
+<aside>
+<h3>This is my wonderful headline three tag!</h3>
+<p>Morbi a venenatis lectus. Mauris elit urna, vestibulum at tempor id, iaculis id enim. Etiam ut dui a purus condimentum tempus at cursus eros. Aliquam et urna at nunc pharetra imperdiet. Sed aliquam erat et laoreet rutrum. Suspendisse potenti. Mauris mollis libero mauris, quis aliquet lacus consectetur at</p>
+
+<figure>
+    <img src="images/wine-barrels.jpg" alt="wine tasting experience">
+    <figcaption><i>Wine Tasting Experience!</i></figcaption>
+</figure>
+
+<figure>
+    <img src="images/winetoast.jpg" alt="wine toast">
+    <p>Suspendisse potenti. Mauris mollis libero mauris, quis aliquet lacus consectetu</p>
+</figure>
+
+
+</aside> 
+
+<footer>
+<ul>
+    <li>Copyright &copy;2022</li>
+    <li>All Rights Reserved</li>
+    <li><a href="">Web Design by Bren</a></li>
+    <li><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcentral.mystudentswa.com%2Fbrendaro%2Fit161%2Fform%2Fcontact.html">HTML VALID!</a></li>
+</ul>
+
+
+</footer>
+</div>
+<!-- END OF WRAPPER -->
+</body>
+</html>
