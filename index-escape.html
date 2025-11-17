@@ -1,75 +1,113 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first Portal page</title>
+    <title>Home page to my Travel Website!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/blueberry.css" type="text/css" >
     <style>
+.blueberry { max-width: 960px; }
+    </style>
 
-        body {
-            background: cornflowerblue;
-        }
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 
-        h1 {
-color:aqua;
-        }
+<script src="js/jquery.blueberry.js"></script>
 
-        h2{
-            color:pink;
-        }
-        h3 {
-            color: yellowgreen
-        }
-/* when defining image use width OR height, not both */
-        img {float:right;
-width: 200px;
- padding: 30px; 
-/* 3 values seperated by a space  */
-/* padding is inside, margin is outside */
-border:purple 10px solid;
-margin-left: 20px;
-        }
-        div#wrapper{
-            width: 940px;
-            /* to center a box, use the margin property with the value below */
-            margin: 0 auto 0 auto;
-            background-color: green;
-            padding:20px
-        }
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
 
-</style>
 </head>
-<body>
-    <div id="wrapper">
-<h1>Welcome to my first web page!</h1>
-<h2>it161</h2>
-<h3>Seattle Central Community College</h3>
-<h4>VALID</h4>
-<!-- the image tag self closes! -->
-<img src="images/selfie.jpg" alt="selfie">
-<!-- this is just a comment tag -->
 
-<p>Hi!My name is <i>Brenda Rodriguez</i>. You can call me <i>Bren</i>. I moved to the PNW in 1998 from Texas. I have also lived in Hawaii and the Bay area. I enjoy most outdoor activities 365 days a year. <b>I love watching womens soccer and basketball</b>, live or on TV.</p>
 
-<p><strong>My biggest passion right now</strong> is to apply for a work internship in Australia next summer in this field and start building my resume. I am very passionate about pursuing my career in IT. I would like to transfer to University to accomplish a bachelor's degree. 
-</p>
-<hr>
-<h3>Homework Assignments</h3>
-<!-- there are 3 types of lists ol, ul, definition -->
+<body class="home">
+<ul class="social">
+<li><a href=""><img src="images/facebook.jpg" alt="Facebook logo">
+</a></li>
+
+<li><a href=""><img src="images/facebook.jpg" alt="Twitter">
+</a></li>
+<li><a href=""><img src="images/facebook.jpg" alt="Instagram logo"></a></li>
+</ul>
+<header>
+ <div class="inner-header">
+        <a href="index.html">
+        <img id="logo" src="images/logo.png" alt="Logo">
+        </a>
+</div>
+
+<nav id="primary">
 <ul>
-    <li><i><a href="index.html">Portal</a></i></li>
-    <li><i><a href="ruth.html">Ruth</a></i></li>
-    <li><i><a href="big/big.html">Big</a></i></li>
-    <li><i><a href="wireframesitemap/index.html">Wireframesitemap</a></i></li>
-    <li><i><a href="form/contact.html">Form</a></i></li>
-    <li><i><a href="final_project/template.html">Template</a></i></li>
-    <li><i><a href="final_project/index.html">FinalProject</a></i></li>
+ <li><a href=index.html>Home</a></li>
+ <li><a href=about.html>About</a></li>
+<li><a href=tours.html>Tours</a></li>
+ <li><a href=promos.html>Promos</a></li>
+<li><a href=contact.html>Contacts</a></li>              
+</ul>       
+</nav>  
+
+</header> 
+<div id="wrapper">
+
+<!-- blueberry -->
+
+<div class="blueberry">
+    <ul class="slides">
+      <li><img src="images/blue.jpg" alt="blue"></li>
+      <li><img src="images/green.jpg" alt="green"></li>
+      <li><img src="images/pink.jpg" alt="pink"></li>
+
+
+    </ul>
+  </div>
+
+<!-- blueberry -->
+
+
+    
+    
+<main>
+<h1>Welcome to our Home Page of our Travel Website</h1>
+<h2>We gge highlighting many areas in the Pacific Northwest</h2>
+<p>t uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet. At auctor urna nunc id cursus metus aliquam eleifend. </p>
+<h2>Another wonderful Headline 2 tag!</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet. At auctor urna nunc id cursus metus aliquam eleifend.</p>
+<p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet. At auctor </p>
+
+</main>
+
+<aside>
+<h3>This will be my headline three!</h3>
+<p>ses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from </p>
+<figure>
+    <img src="images/lodge.jpg" alt="Lodge at Crater Lake">
+    <figcaption> Lodge at Crater Lake</figcaption>
+</figure>
+<p>ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+</aside>
+
+<footer>
+<ul>
+<li>Copyright &copy;2021</li>
+<li>All Rights Reserved</li>
+<li><a href="">Terms of Use</a></li>
+<li><a href="../index.html">Web Design by Bren</a></li>
+<li><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcentral.mystudentswa.com%2Fbrendaro%2Fit161%2Ftravel%2Findex.html">
+<img src="images/html5.png" alt="HTML 5 logo">
+</a></li>
 
 </ul>
+    
+</footer>
 
-<p><b><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcentral.mystudentswa.com%2Fbrendaro%2Fit161%2Findex.html">HTML Valid!</a></b></p>
 </div>
+    <!--end wrapper  -->
 </body>
 </html>
